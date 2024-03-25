@@ -77,7 +77,7 @@ Viršsvoris = BMI > 25
 Normalu = 18.5 <= BMI < 25
 Per mažas svoris = BMI < 18.5
 */
- 
+
 console.log('==== Task 3 ===');
 
 function bmi(weight, height) {
@@ -103,7 +103,7 @@ pasakytų kiek tai yra sekundėmis, minutėmis, valandomis,
 dienomis.
 */
 
-console.log('==== Task 4 ==='); 
+console.log('==== Task 4 ===');
 
 
 let birthDay = '03/06/2000';
@@ -121,12 +121,12 @@ let month = day * 30;
 
 
 
-let years = Math.round(milliseconds/year);
+let years = Math.round(milliseconds / year);
 let months = years * 12;
 let days = years * 365;
-let hours = Math.round(milliseconds/hour);
-let minutes = Math.round(milliseconds/minute);
-let seconds = Math.round(milliseconds/second);
+let hours = Math.round(milliseconds / hour);
+let minutes = Math.round(milliseconds / minute);
+let seconds = Math.round(milliseconds / second);
 
 
 console.log('Age in years:', years);
@@ -161,9 +161,9 @@ console.log(temperatureInFahrenheit = temperatureInFahrenheit + "°F is " + tepe
 let c = 32;
 let f = 0;
 
-f = (c * (9/ 5)) + 32;
+f = (c * (9 / 5)) + 32;
 
-console.log('Celcius to Fahreinheit is ' +f);
+console.log('Celcius to Fahreinheit is ' + f);
 
 
 /*
@@ -222,7 +222,7 @@ console.log(Math.ceil((christmas.getTime() - today.getTime()) / (one_day)) + 'da
 tekstinę eilutę. Turėtumėte gauti tokį rezultatą:
 Tomas,Dainius,Paulius,Jonas
 Tomas+Dainius+Paulius+Jonas
-*/ 
+*/
 console.log('==== Task 9 ===');
 
 let masyvas = ['Tomas', 'Dainius', 'Paulius', 'Jonas'];
@@ -240,15 +240,15 @@ console.log('==== Task 10 ===');
 
 function generateRandomPassword(length) {
     const charset = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789!@#$%^&*()_-+=<>?";
-  
+
     let password = "";
     for (let i = 0; i < length; i++) {
-      const randomIndex = Math.floor(Math.random() * charset.length);
-      password += charset[randomIndex];
+        const randomIndex = Math.floor(Math.random() * charset.length);
+        password += charset[randomIndex];
     }
-  
+
     return password;
-  }
-  
-  const randomPassword = generateRandomPassword(12);
-  console.log(randomPassword);
+}
+
+const randomPassword = generateRandomPassword(12);
+console.log(randomPassword);
