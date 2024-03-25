@@ -222,8 +222,7 @@ console.log(Math.ceil((christmas.getTime() - today.getTime()) / (one_day)) + 'da
 tekstinę eilutę. Turėtumėte gauti tokį rezultatą:
 Tomas,Dainius,Paulius,Jonas
 Tomas+Dainius+Paulius+Jonas
-*/
-
+*/ 
 console.log('==== Task 9 ===');
 
 let masyvas = ['Tomas', 'Dainius', 'Paulius', 'Jonas'];
